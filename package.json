@@ -1,0 +1,28 @@
+{
+  "name": "stapi-exercise",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yitomok/stapi-exercise.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "yitomok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yitomok/stapi-exercise/issues"
+  },
+  "homepage": "https://github.com/yitomok/stapi-exercise#readme",
+  "dependencies": {
+    "bluebird": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+  }
+}
