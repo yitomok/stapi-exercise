@@ -3,6 +3,11 @@ const splitAlphabets = require('./splitAlphabets.js');
 const getCharacterSpecies = require('./stapi.js');
 
 
+if (process.argv.length <= 2) {
+    console.log('Please provide a name.');
+    return;
+}
+
 // Get all Klingon alphabets separated in an array
 const alphabets = process.argv.slice(2).map((name) => splitAlphabets(name)).reduce((acc, cur) => acc.concat(cur));
 
