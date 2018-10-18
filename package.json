@@ -23,6 +23,5 @@
     "bluebird": "latest",
     "request": "latest"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
